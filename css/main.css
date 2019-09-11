@@ -7,20 +7,27 @@ body {
   background-size: 50px 50px;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1{
   text-align: center;
+  background: #203;
+  color: white;
+  text-shadow: 0 0 .1em, 0 0 .3em;
 }
 
 p {
   text-align: center;
 }
 
-marquee {
+marquee#ma1 {
   font-size: 2.5em;
+  color: magenta;
 }
+marquee#ma2 {
+  font-size: 3.5em;
+  color: rgb(44, 164, 219);
+}
+
+
 div {
   text-align: center;
 }
