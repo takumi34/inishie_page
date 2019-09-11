@@ -1,5 +1,7 @@
 @charset "utf-8";
-
+html {
+  overflow-y: hidden;
+}
 body {
   background: #00dd00;
   background-image: linear-gradient(white 1px, transparent 0),
