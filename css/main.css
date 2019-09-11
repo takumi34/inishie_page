@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body {
+  background: #00dd00;
+  background-image: linear-gradient(white 1px, transparent 0),
+    linear-gradient(90deg, white 1px, transparent 0);
+  background-size: 50px 50px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+marquee {
+  font-size: 2.5em;
+}
+div {
+  text-align: center;
+}
+.blinking {
+  animation: blinkingText 0.1s infinite;
+  font-size: 1.5em;
+}
+@keyframes blinkingText {
+  0% {
+    color: transparent;
+  }
+  100% {
+    color: red;
+  }
+}
